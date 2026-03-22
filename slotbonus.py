@@ -73,8 +73,8 @@ def simulate(bet_size, trials=50, balance=200, wager_required=6000):
 
 
 
-balance=2000
-wager_required=35000
+balance=200
+wager_required=6000
 print(f"Running Monte Carlo | Starting Balance = {balance} | Wager Requirement = {wager_required}")
 # --- Run tests ---
 for bet in [1, 2, 5, 10, 20, 40]:
